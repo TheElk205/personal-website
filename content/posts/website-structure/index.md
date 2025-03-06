@@ -12,7 +12,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Short description on how I built and maintian this webiste. As everything is public, it shoudl be easy to follow for someone who want so build something similar."
+description: "Short description on how I built and maintian this webiste. As everything is public, it shoudl be easy to follow for someone who wants to build something similar."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
