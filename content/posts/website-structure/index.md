@@ -4,7 +4,7 @@ date: '2025-03-06T11:05:58+01:00'
 lastmod: 
 # weight: 1
 # aliases: ["/first"]
-tags: ["website", "hugo", "github-actions"]
+tags: ["website", "hugo", "github-actions", "todo"]
 author: "Ferdinand Köppen"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -99,5 +99,15 @@ hugo new content posts/website-structure.md
 ```
 
 This will create a new and empty blog post, with some placeholders already filled. However, we can easily edit them according to our needs.
+#TODO: Needs to be edited for new folder structure with images!
+
 
 ## Deployment
+As I am hosting the code on github, it was obvius for me to also host the hugo page there for now. We will do this using github pages.
+
+First, we need to enable github pages for the project. For this got to `Settings --> Pages`. Set the source to `Actions`. 
+{{ $image := .Resources.Get "action_as_page_source.png" }}
+![alt text](./images/actions_as_page_source.png)
+You can then click on `browse all workflows` and simply search for `hugo`. For me, there was only one entry which was the official hugo builder from the github team.
+![alt text](images/choose_hugo.png)
+Then click on `Configure` and simply commit the file to the main branch.
