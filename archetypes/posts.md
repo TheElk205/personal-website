@@ -1,6 +1,7 @@
 ---
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 date: '{{ .Date }}'
+lastmod: '{{ .Date }}'
 # weight: 1
 # aliases: ["/first"]
 tags: ["first"]

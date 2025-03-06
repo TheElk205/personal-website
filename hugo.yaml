@@ -4,9 +4,18 @@ title: Ferdinand Köppen's Blog
 theme: "PaperMod"
 
 enableRobotsTXT: true
-buildDrafts: false
+buildDrafts: true
 buildFuture: false
 buildExpired: false
+
+enableGitInfo: true
+
+frontmatter:
+  lastmod:
+  - lastmod
+  - :git
+  - date
+  - publishDate
 
 params:
   defaultTheme: auto
@@ -20,7 +29,7 @@ params:
       or just smaller softare pieces I write. Maybe also just sharing some learnings.
 
       Feel free to reach out if you have any questions!
-      
+
       I am neither a fan of social media, nor am I active there, so don't bother looking for me there.
 
   socialIcons: # optional
@@ -29,20 +38,6 @@ params:
     - name: "email"
       url: "mailto:ferdinand@evee.studio"
 
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
-  # home-info mode
 homeInfoParams:
   Title: "Hi there \U0001F44B"
   Content: Welcome to my blog
@@ -57,7 +52,3 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
