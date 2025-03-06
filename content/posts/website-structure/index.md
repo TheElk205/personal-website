@@ -4,12 +4,12 @@ date: '2025-03-06T11:05:58+01:00'
 lastmod: 
 # weight: 1
 # aliases: ["/first"]
-tags: ["website", "hugo", "github-actions", "todo"]
+tags: ["website", "hugo", "github-actions"]
 author: "Ferdinand Köppen"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: false
 description: "Short description on how I built and maintian this webiste. As everything is public, it shoudl be easy to follow for someone who want so build something similar."
@@ -95,12 +95,10 @@ Now everything is set up to write our first post, actually this one.
 ## Adding posts
 Adding a post can either be done by hand, by simply creating a file in the appropriate folder, in this case the `content/posts` directory, but then we would use our new template. So we call
 ```shell
-hugo new content posts/website-structure.md
+hugo new content posts/website-structure/index.md
 ```
 
-This will create a new and empty blog post, with some placeholders already filled. However, we can easily edit them according to our needs.
-#TODO: Needs to be edited for new folder structure with images!
-
+This will create a new and empty blog post, in its own directory with some placeholders already filled. However, we can easily edit them according to our needs.
 
 ## Deployment
 As I am hosting the code on github, it was obvius for me to also host the hugo page there for now. We will do this using github pages.
