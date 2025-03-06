@@ -111,3 +111,5 @@ First, we need to enable github pages for the project. For this got to `Settings
 You can then click on `browse all workflows` and simply search for `hugo`. For me, there was only one entry which was the official hugo builder from the github team.
 ![alt text](images/choose_hugo.png)
 Then click on `Configure` and simply commit the file to the main branch.
+
+Thats it! every time you push now to the main branch, the webiste gets automatically built. You can then reach it via `https://{github-user}.github.io/{project-name}`, so in this case [https://theelk205.github.io/personal-website/](https://theelk205.github.io/personal-website/)
